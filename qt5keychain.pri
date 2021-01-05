@@ -86,7 +86,7 @@ win32 {
 
 macx:!ios {
     LIBS += -framework Security -framework Foundation
-    SOURCES += $$QT5KEYCHAIN_PWD/keychain_mac.cpp
+    OBJECTIVE_SOURCES += $$QT5KEYCHAIN_PWD/keychain_apple.mm
 }
 
 ios {
